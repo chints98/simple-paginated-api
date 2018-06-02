@@ -7,9 +7,10 @@ module.exports = app => {
         page = parseInt(page);
         rows = parseInt(rows);
         sortOrder = parseInt(sortOrder);
+    
         console.log(`page: ${page}`, `rows ${rows}`, `sortField ${sortField}`, `sortOrder: ${sortOrder}`);
        
-        const query = photos.slice(0);
+        let query = photos.slice(0);
 
         query.sort((a, b) => {
             if(a[sortField] > b[sortField]) return 1;
