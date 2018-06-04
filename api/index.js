@@ -10,7 +10,7 @@ module.exports = app => {
         rows = parseInt(rows);
         sortOrder = parseInt(sortOrder);
     
-        console.log(`page: ${page}`, `rows ${rows}`, `sortField ${sortField}`, `sortOrder: ${sortOrder}`);
+        // console.log(`page: ${page}`, `rows ${rows}`, `sortField ${sortField}`, `sortOrder: ${sortOrder}`);
        
         let query = photos.slice(0);
 
@@ -27,11 +27,10 @@ module.exports = app => {
 
         const from = (page - 1) * rows;
         const data = query.slice(from, from + rows);
-        console.log(data);
         res.json(data);
     });
     
     app.get('/photos/count', (req, res) => {
         res.end(photos.length.toString());
-    });
+    }); 
 };
