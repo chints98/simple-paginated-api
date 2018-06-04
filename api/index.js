@@ -29,4 +29,7 @@ module.exports = app => {
         res.json(data);
     });
     
+    app.get('/photos/count', (req, res) => {
+        res.end(photos.length.toString());
+    });
 };
