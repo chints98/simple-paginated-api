@@ -1,4 +1,6 @@
 const photos = require('./mock-data.json');
+
+
 module.exports = app => {
 
     app.get('/photos', (req, res) => {
