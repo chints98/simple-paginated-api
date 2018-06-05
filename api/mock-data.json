@@ -3,72 +3,96 @@
         "id": 1,
         "postDate": "2018-04-12T20:27:17.161Z",
         "description": "Carl Rogers at University",
+        "likes": 200, 
+        "comments": 25,
         "allowComments": false
     },
     {
         "id": 2,
         "postDate": "2018-04-13T20:27:17.161Z",
         "description": "Walking on Dublin streets",
+        "likes": 120, 
+        "comments": 25,
         "allowComments": true
     },
     {
         "id": 3,
         "postDate": "2018-04-14T20:27:17.161Z",
         "description": "Playing with my daugher",
+        "likes": 100, 
+        "comments": 0,
         "allowComments": false
     },
     {
         "id": 4,
         "postDate": "2018-04-15T20:27:17.161Z",
         "description": "First time walking",
+        "likes": 900, 
+        "comments": 205,
         "allowComments": true
     },
     {
         "id": 5,
         "postDate": "2018-04-16T20:27:17.161Z",
         "description": "Beautifull t-shirt",
+        "likes": 200, 
+        "comments": 5,
         "allowComments": true
     },
     {
         "id": 6,
         "postDate": "2018-04-17T20:27:17.161Z",
         "description": "Break fast with family",
+        "likes": 100, 
+        "comments": 92,
         "allowComments": false
     },
     {
         "id": 7,
         "postDate": "2018-04-18T20:27:17.161Z",
         "description": "Running alone",
+        "likes": 50, 
+        "comments": 50,
         "allowComments": false
     },
     {
         "id": 8,
         "postDate": "2018-04-19T20:27:17.161Z",
         "description": "Making fire",
+        "likes": 10, 
+        "comments": 10,
         "allowComments": true
     },
     {
         "id": 9,
         "postDate": "2018-04-20T20:27:17.161Z",
         "description": "Amazing stuff",
+        "likes": 30, 
+        "comments": 25,
         "allowComments": true
     },
     {
         "id": 10,
         "postDate": "2018-04-21T20:27:17.161Z",
         "description": "Oscar Wilde statue",
+        "likes": 11, 
+        "comments": 7,
         "allowComments": true
     },
     {
         "id": 11,
         "postDate": "2018-04-22T20:27:17.161Z",
         "description": "Go to the grocery",
+        "likes": 300, 
+        "comments": 105,
         "allowComments": true
     },
     {
         "id": 12,
         "postDate": "2018-04-23T20:27:17.161Z",
         "description": "I will be there",
+        "likes": 830, 
+        "comments": 400,
         "allowComments": true
     }                                          
 ]
